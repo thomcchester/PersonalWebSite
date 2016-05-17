@@ -1,0 +1,65 @@
+<div class="boxCreateEx">
+<form name="createexform" ng-submit="submitForm()">
+    <div class="line">
+        <label class="darkText" for="name">Name of Exercise:</label>
+        <input class="submitBtn darkText" type="text" name="name" id="name" ng-model="allerate.name">
+    </div>
+    <div>
+      <label class="userCreate darkText" for="user">{{user.user.userName}}</label>
+      <input class="userCreate" type="text" name="user" id="user" value="{{user.user.userName}}" ng-model="allerate.user" >
+    </div>
+
+    <div class="line">
+        <label class="darkText" for="description">Description Of Exercise:</label>
+        <textarea class="submitBtn" type="description" name="description" id="description" ng-model="allerate.description"></textarea>
+    </div>
+    <div class="line">
+      <label for="bodyRegion">Body Part</label>
+      <select class="submitBtn" for="bodyRegion" type="bodyRegion" name="bodyRegion" id="bodyRegion" ng-model="allerate.bodyRegion">
+          <option value="neck">Neck</option>
+          <option value="upperTrap">Upper Trap</option>
+          <option value="lowerTrap">Lower Trap</option>
+          <option value="delt">Delt</option>
+          <option value="lat">Lats</option>
+          <option value="pects">Pects</option>
+          <option value="upperBack">Upper Back</option>
+          <option value="bicep">Bicep</option>
+          <option value="tricep">Tricep</option>
+          <option value="forearm">Forearm</option>
+          <option value="grip">Grip</option>
+          <option value="upperAbs">Upper Abs</option>
+          <option value="lowerAbs">Lower Abs</option>
+          <option value="obliques">Obliques</option>
+          <option value="lowerBack">Lower Back</option>
+          <option value="glutes">Glutes</option>
+          <option value="adductor">Adductor</option>
+          <option value="abductor">abductor</option>
+          <option value="quads">Quads</option>
+          <option value="hamstring">Hamstring</option>
+          <option value="calves">Calves</option>
+      </select>
+    </div>
+    <div class="line">
+      <label for="deviceType">Equipment Type</label>
+      <select class="submitBtn" or="deviceType" type="deviceType" name="deviceType" id="deviceType"ng-model="allerate.deviceType">
+              <option value="barbell">Barbell</option>
+              <option value="dumbbell">Dumbbell</option>
+              <option value="bodyWeight">Body Weight</option>
+              <option value="machine">Machine</option>
+              <option value="cable">Cable</option>
+              <option value="yogaBall">Yoga Ball</option>
+              <option value="pilatesMachine">Pilates Machine</option>
+        </select>
+    </div>
+    <div class="line">
+      <input class="submitBtn litbut" type="checkbox" name="time" value="true" id="time" ng-model="allerate.time"/> <span class="clicker">Time</span>
+      <input class="submitBtn litbut" type="checkbox" name="reps" value="true" id="reps" ng-model="allerate.reps"/> <span class="clicker">Reps</span>
+      <input class="submitBtn litbut" type="checkbox" name="weight" value="true" id="weight" ng-model="allerate.weight"/><span class="clicker">Weight</span>
+
+    </div>
+    <input class="submitBtn subbtn" type="submit" value="make exercise"/>
+</form>
+
+</p>
+
+</div>

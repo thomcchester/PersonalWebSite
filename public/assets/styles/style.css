@@ -1,0 +1,339 @@
+.backgrounder {
+  width: 100%;
+  height: 100%;
+  background: url(/extras/training.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.backgrounderUser {
+  width: 100%;
+  height: 100%;
+  background: url(/extras/gym-man.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.backgrounderIndex {
+  width: 100%;
+  height: 100%;
+  background: url(/extras/gym-woman.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.backgrounderFailure {
+  width: 100%;
+  height: 100%;
+  background: url(/extras/chalk.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+  body .dataFit {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3em;
+    float: right;
+    color: #03666A;
+    margin: 50px;
+    margin-right: 120px; }
+  body .facts {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3em;
+    position: absolute;
+    color: #03666A;
+    right: 300px;
+    top: 150px; }
+  body .notTheory {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3em;
+    position: absolute;
+    color: #03666A;
+    right: 150px;
+    top: 200px; }
+
+.instructions {
+  color: #5DC8CD;
+  width: 10%;
+  background-color: rgba(105, 105, 105, 0.74);
+  height: 1000px;
+  position: absolute;
+  top: 0;
+  left: 0; }
+  .instructions a {
+    color: #5DC8CD;
+    font-size: 1.75em; }
+  .instructions ul {
+    list-style: none; }
+  .instructions .sideItems {
+    position: absolute;
+    left: -300px;
+    margin-top: 45px; }
+
+.boxCreateEx {
+  background-color: rgba(105, 105, 105, 0.74);
+  width: 50%;
+  margin: 0 auto; }
+
+.instructions:hover {
+  -webkit-transition: 0.35s ease;
+  -moz-transition: 0.35s ease;
+  transition: 0.35s ease;
+  width: 25%; }
+
+.instructions:hover .sideItems {
+  -webkit-transition: 0.35s ease;
+  -moz-transition: 0.35s ease;
+  transition: 0.35s ease;
+  left: 0; }
+
+.sideItems li {
+  margin-top: 20px; }
+
+.doEx {
+  opacity: .5;
+  width: 50%;
+  background-color: grey;
+  margin: 0 auto; }
+
+#loginInfo {
+  width: 25%;
+  margin: 0 auto;
+  background-color: grey;
+  opacity: .5;
+  margin-top: 12.5%; }
+
+#regNew {
+  width: 25%;
+  margin: 0 auto;
+  background-color: grey;
+  opacity: .5;
+  margin-top: 12.5%; }
+
+#line {
+  color: black;
+  opacity: 1; }
+
+.userCreate {
+  display: none; }
+
+.pForExCom {
+  display: none; }
+
+.submitBtn {
+  box-shadow: none !important;
+  border: none !important; }
+
+.boxin {
+  padding-top: 7%; }
+
+.boxCreateEx {
+  opacity: .5;
+  border-radius: 3px;
+  margin-top: 50px;
+  color: #03666A;
+  font-size: 1.5em;
+  background-color: gray;
+  width: 50%; }
+
+.subbtn {
+  margin-left: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #5DC8CD;
+  height: 40px;
+  border-radius: 3px; }
+
+.litbut {
+  width: 30px;
+  /*Desired width*/
+  height: 30px;
+  /*Desired height*/
+  margin: 0; }
+
+.logBtn {
+  box-shadow: none;
+  margin-left: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #5DC8CD;
+  height: 40px;
+  border-radius: 3px; }
+
+.registers {
+  font-family: 'Lato', sans-serif; }
+
+.loginBox {
+  border-radius: 10px; }
+
+.fails {
+  font-size: 2em;
+  opacity: 1;
+  position: absolute;
+  left: 180%;
+  top: 10px;
+  color: #5DC8CD; }
+
+.failto {
+  font-size: 2em;
+  opacity: 1;
+  position: absolute;
+  left: 340%;
+  top: 30px;
+  color: #5DC8CD; }
+
+.faillogin {
+  font-size: 2em;
+  opacity: 1;
+  position: absolute;
+  left: 410%;
+  top: 50px;
+  color: #5DC8CD; }
+
+.doGym {
+  font-size: 2em;
+  opacity: 1;
+  position: absolute;
+  left: 500%;
+  top: 125px;
+  color: #5DC8CD;
+  width: 500px; }
+
+.backin {
+  position: absolute;
+  font-size: 1.25em;
+  top: 5%;
+  right: 5%;
+  color: #5DC8CD; }
+
+.divForExCom {
+  margin-left: 150px;
+  color: #5DC8CD;
+  display: inline-block; }
+
+.hider {
+  display: inline-block;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100px; }
+
+.divForExCom:hover {
+  background-color: rgba(222, 245, 246, 0.5); }
+
+.divForExCom:hover .pForExCom {
+  display: block;
+  opacity: 1; }
+
+.pForExCom {
+  color: #123e40; }
+
+.topCom {
+  background-color: rgba(54, 189, 196, 0.6);
+  width: 100px;
+  padding: 10px;
+  border-radius: 2px;
+  margin: 10px; }
+
+.bottomCom {
+  float: left;
+  text-align: center;
+  width: 40px;
+  padding: 10px;
+  border-radius: 2px;
+  margin: 10px; }
+
+.catReps {
+  margin-left: 20px; }
+
+.catRest {
+  margin-left: 20px; }
+
+.catDate {
+  margin-left: 0;
+  width: 350px; }
+
+.catQuality {
+  margin-left: 40px; }
+
+.doExBox {
+  background-color: rgba(105, 105, 105, 0.74);
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 3px; }
+
+.hiderate {
+  display: none; }
+
+.slide-label {
+  width: 100%;
+  background: none;
+  border: none !important;
+  box-shadow: none !important;
+  text-align: center; }
+
+.titleSlide {
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.buttoner {
+  width: 100%; }
+
+.subdo {
+  margin-left: 30%;
+  margin-right: 45%; }
+
+.dropdown {
+  box-shadow: none !important;
+  border: none !important;
+  background-color: rgba(255, 255, 255, 0.75) !important; }
+
+.doExBox label {
+  color: #5DC8CD;
+  font-size: 2em; }
+.doExBox .exl {
+  color: #5DC8CD;
+  font-size: 2em; }
+.doExBox input {
+  color: #209fa5;
+  font-size: 2em; }
+.doExBox .spacing {
+  margin-top: 5px; }
+.doExBox .titleSlide {
+  color: #5DC8CD;
+  font-size: 2em; }
+
+.boxCreateEx {
+  width: 50%;
+  opacity: 1;
+  background-color: rgba(105, 105, 105, 0.74) !important; }
+  .boxCreateEx label {
+    color: #5DC8CD; }
+  .boxCreateEx input {
+    color: #209fa5;
+    font-size: 1.05em; }
+  .boxCreateEx textarea {
+    color: #209fa5;
+    font-size: .75em;
+    height: 20px;
+    margin-bottom: 0px; }
+  .boxCreateEx .clicker {
+    color: #5DC8CD !important;
+    margin-right: 35px; }
+  .boxCreateEx .line {
+    margin-bottom: 25px; }
+
+.sideItems a {
+  text-decoration: none !important; }
+  .sideItems a li {
+    margin-top: 25px;
+    font-size: .5em; }
+
+/*# sourceMappingURL=style.css.map */

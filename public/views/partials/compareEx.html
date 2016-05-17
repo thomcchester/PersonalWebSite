@@ -1,0 +1,17 @@
+<div ng-repeat="item in thing.asset">
+    <div class="divForExCom">
+      <p class="hider"> {{item[0].exercise}}</p>
+      <p class="pForExCom">
+        <span class="weightCom topCom">Weight</span> <span class="repsCom topCom">Reps</span> <span class="timeCom  topCom">Time</span> <span class="restTimeCom  topCom">Rest Time</span> <span class="qualityCom topCom">Quality</span> <span class="painCom topCom">Pain</span> <span class="dateCom  topCom">Date</span>
+      </p>
+      <p class="pForExCom" ng-repeat="cat in item">
+        <span class="weightCom bottomCom">{{cat.weight}}</span>
+        <span class="repsCom bottomCom catReps">{{cat.reps}}</span>
+        <span class="timeCom bottomCom">{{cat.time}}</span>
+        <span class="restTimeCom bottomCom catRest">{{cat.rest_time}}</span>
+        <span class="qualityCom bottomCom catQuality">{{cat.quality}}</span>
+        <span class="painCom bottomCom">{{cat.pain}}</span>
+        <span class="dateCom bottomCom catDate">{{cat.date}}</span>
+      </p>
+    </div>
+</div>
